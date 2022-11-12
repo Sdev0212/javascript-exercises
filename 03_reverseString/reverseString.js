@@ -8,5 +8,7 @@ const reverseString = function(string) {
     return newString;
 };
 
+//can also be written as: newstring=string.split("").reverse().join("");
+
 // Do not edit below this line
 module.exports = reverseString;
